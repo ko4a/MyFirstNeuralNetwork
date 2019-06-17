@@ -16,6 +16,10 @@ namespace MyFirstNeuralNetwork
 
             for (int i = 0; i < inputCount; i++)
                 Weights.Add(1);
+
+
+            
+
         }
 
         public double FeedForward(List<double> inputs)
